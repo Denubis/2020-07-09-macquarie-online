@@ -39,16 +39,8 @@ for your learners to practice in.
 2.  In this page (<https://github.com/carpentries/workshop-template>),
     click on the green "Use this template" button (top right)
 
-3.  Select the owner for your new repository.
-    (This will probably be you, but may instead be an organization you belong to.)
 
-4.  Choose a name for your workshop website repository.
-    This name should have the form `YYYY-MM-DD-site`,
-    e.g., `2016-12-01-miskatonic`,
-    where `YYYY-MM-DD` is the start date of the workshop.
-
-6.  Make sure the repository is public, and click on "Create repository from template".
-You will be redirected to your new copy of the workshop template.
+    ![the 'use this template' button on GitHub](fig/select-github-use-template.png?raw=true)
 
 If you experience a problem, please [get in touch](#getting-and-giving-help).
 
@@ -78,6 +70,7 @@ There are two ways of customizing your website. You can either:
     and then selecting the pencil icon in the menu bar:
 
     ![](fig/edit-index-file-menu-bar.png?raw=true)
+
 
     Editing hints are embedded in `index.md`,
     and full instructions are in [the customization instructions][customization].
@@ -119,6 +112,7 @@ There are two ways of customizing your website. You can either:
 
 If you are already familiar with Git, you can clone the repository to your desktop, edit `index.md`,
 `_config.yml`, and `schedule.html` following the instruction above there, and push your changes back to the repository.
+
 
 ```shell
 git clone https://github.com/your_username/YYYY-MM-DD-site

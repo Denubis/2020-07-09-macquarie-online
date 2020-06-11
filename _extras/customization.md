@@ -39,8 +39,8 @@ options.
     workshop, like "Euphoric State University".  It should *not*
     include the address or other details, since this value is
     displayed in a table on websites (e.g.,
-    <https://carpentries.org/upcoming_workshops/>). See section
-    below for value to use for online workshops.
+
+    <https://carpentries.org/upcoming_workshops/>).
 
 *   `address` is the workshop's address (including details like the
     room number). The address should be all on one line.
@@ -60,8 +60,8 @@ options.
 
 *   `latitude` and `longitude` are the latitude and longitude of the workshop
     site (so we can put a pin on our map). You can use
-    [this site](https://getlatlong.net/) to find these values. 
-    See section below for value to use for online workshops.
+
+    [this site](https://getlatlong.net/) to find these values.
 
 *  `humandate` is the human-friendly start and end date for the
     workshop.  Please use three-letter month names and abbreviations
@@ -106,9 +106,9 @@ options.
 
 The header may optionally define the following:
 
-*   `collaborative_notes` is the URL for the Etherpad for your workshop.
-    If you are not using an Etherpad, you can delete this line. You can
-    create a carpentries etherpad [here](https://pad.carpentries.org/).
+
+*   `collaborative_notes` is the URL for the Etherpad for your workshop.  If you are
+    not using an Etherpad, you can delete this line. You can create a carpentries etherpad [here](https://pad.carpentries.org/).
 
 *   `eventbrite` is the multi-digit Eventbrite registration key.  If you
     are using Eventbrite, the Carpentries Regional Coordinators will
